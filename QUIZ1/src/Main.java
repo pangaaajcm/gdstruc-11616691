@@ -53,7 +53,7 @@ public class Main {
 
             for (int i = 0; i <= lastSortedIndex; i++)
             {
-                if (arr[i] > arr[largestIndex])
+                if (arr[i] < arr[largestIndex])
                 {
                     largestIndex = i;
                 }
